@@ -86,7 +86,7 @@ jobs:
         run: wget "${{ inputs.ipa_url }}" --no-verbose -O ${{ github.workspace }}/infuse.ipa
 
       - name: Inject tweaks into IPA
-        run: cyan -i infuse.ipa -o InfusePlus_${{ inputs.tweak_version }}.ipa -uwef infplus.deb -n "${{ inputs.display_name }}" -b ${{ inputs.bundle_id }}
+        run: cyan -i infuse.ipa -o InfusePlus_${{ inputs.tweak_version }}+infuse-${{ inputs.infuse_version }}.ipa -uwef infplus.deb -n "${{ inputs.display_name }}" -b ${{ inputs.bundle_id }}
 
       - name: Upload to GitHub Releases
         uses: softprops/action-gh-release@v2.0.1
