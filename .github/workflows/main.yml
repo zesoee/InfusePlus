@@ -9,6 +9,11 @@ on:
         default: ""
         required: true
         type: string
+    
+      infuse_version:
+        description: "The version of the infuse ipa."
+        required: true
+        type: string  
 
       tweak_version:
         description: "The version of the tweak to use. Enter the version manually from dayanch96/InfusePlus/releases or leave default"
@@ -86,8 +91,8 @@ jobs:
       - name: Upload to GitHub Releases
         uses: softprops/action-gh-release@v2.0.1
         with:
-          name: InfusePlus v${{ inputs.tweak_version }} (${{ github.run_number }})
-          files: InfusePlus_${{ inputs.tweak_version }}.ipa
+          name: InfusePlus v${{ inputs.tweak_version }}(infuse@${{ inputs.infuse_version }}) (${{ github.run_number }})
+          files: InfusePlus_${{ inputs.tweak_version }}+infuse-${{ inputs.infuse_version }}.ipa
           draft: true
 
       - name: Output Release URL
