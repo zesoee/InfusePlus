@@ -19,10 +19,27 @@
 "SkipByLongTapDesc" = "Długie naciśnięcie przycisków przewijania powoduje przejście do następnego/poprzedniego filmu";
 "LoopButton" = "Przycisk pętli";
 "LoopButtonDesc" = "Dodaje przycisk pętli do nakładki";
+"HorFlipButton" = "Odbicie poziome";
+"HorFlipButtonDesc" = "Dodaje przycisk odbicia poziomego do nakładki";
+"VerFlipButton" = "Odbicie pionowe";
+"VerFlipButtonDesc" = "Dodaje przycisk odbicia pionowego do nakładki";
 "SkipButtons" = "Przyciski przewijania";
 "SkipButtonsDesc" = "Dodaje przyciski przejścia do następnego i poprzedniego filmu do nakładki";
 "HideRewindButtons" = "Ukryj przyciski przewijania";
 "HideRewindButtonsDesc" = "Usuwa przyciski przewijania wstecz i do przodu z nakładki";
+"MutePlayerOnly" = "Wycisz tylko odtwarzacz";
+"MutePlayerOnlyDesc" = "Wycisza odtwarzacz bez wpływu na głośność systemową podczas używania przycisku głośności w odtwarzaczu";
+
+"OverlayLock" = "Blokada nakładki";
+"OverlayLockDesc" = "Dodaje przycisk blokady nakładki do menu ustawień odtwarzania";
+"AllowLongPresses" = "Zezwól na gesty długiego przytrzymania";
+"AllowLongPressesDesc" = "Umożliwia gesty długiego przytrzymania na zablokowanej nakładce, np. zmianę prędkości odtwarzania";
+"AllowDoubleTaps" = "Zezwól na gesty podwójnego stuknięcia";
+"AllowDoubleTapsDesc" = "Umożliwia gesty podwójnego stuknięcia do przewijania w przód, wstecz lub odtwarzania/wstrzymania";
+"AllowTwoFingerTaps" = "Zezwól na gesty stuknięcia dwoma palcami";
+"AllowTwoFingerTapsDesc" = "Umożliwia stuknięcie dwoma palcami w celu odtwarzania lub wstrzymania";
+"AllowPanGestures" = "Zezwól na gesty przesuwania";
+"AllowPanGesturesDesc" = "Umożliwia gesty przesuwania do przewijania oraz regulacji jasności i głośności";
 
 "ShowStatusBar" = "Pokaż pasek stanu";
 "ShowStatusBarDesc" = "Pokazuje pasek stanu z połączeniem, godziną i poziomem baterii w odtwarzaczu";
@@ -69,7 +86,7 @@
 
 "UpdateHeader" = "Aktualizacja Infuse Plus";
 "AutoCleanTrash" = "Automatyczne czyszczenie kosza";
-"AutoCleanTrashDesc" = "Automatycznie czyści folder kosza Infuse podczas uruchamiania";
+"AutoCleanTrashDesc" = "Automatycznie czyści folder kosza Infuse przy uruchomieniu";
 "NotifyUpdates" = "Powiadamiaj o aktualizacjach";
 "NotifyUpdatesDesc" = "Wyświetla alert, jeśli dostępna jest nowa wersja modyfikacji";
 "UpdateLocalizations" = "Aktualizuj tłumaczenia";
@@ -113,6 +130,9 @@
 "ChineseTraditional" = "Tłumaczenie chińskie tradycyjne";
 "Japanese" = "Tłumaczenie japońskie";
 "Spanish" = "Tłumaczenie hiszpańskie";
+
+"LockOverlay" = "Zablokuj nakładkę";
+"TapToUnlock" = "Stuknij, aby odblokować";
 
 "Photos" = "Zdjęcia";
 "Imported" = "Zaimportowano";
