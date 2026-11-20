@@ -21,10 +21,20 @@
 "NoStockVolumeBoostDesc" = "从播放设置菜单中删除原生声音增强子菜单";
 "RememberPlaybackSpeed" = "记忆播放速度";
 "RememberPlaybackSpeedDesc" = "将上次使用的播放速度设为默认播放速度。";
+"TapToSkip" = "轻点跳转";
+"TapToSkipDesc" = "轻点进度条即可跳至所点位置";
 "SkipByLongTap" = "使用长按跳过";
 "SkipByLongTapDesc" = "长按“快进\/快退”按钮跳至“上\/下一个”视频";
 "LoopButton" = "循环按钮";
 "LoopButtonDesc" = "在播放界面添加循环按钮";
+"ABLoopButton" = "A-B 循环";
+"ABLoopButtonDesc" = "在播放界面添加按钮，循环播放视频中两点之间的片段";
+"EnableLoop" = "启用循环";
+"SetStartPoint" = "设置起点";
+"SetEndPoint" = "设置终点";
+"StartPointTime" = "起点：%@";
+"EndPointTime" = "终点：%@";
+"ClearLoop" = "清除循环";
 "HorFlipButton" = "水平翻转";
 "HorFlipButtonDesc" = "在播放控制界面中添加“水平翻转”按钮。";
 "VerFlipButton" = "垂直翻转";
@@ -69,9 +79,14 @@
 "SkippingIntro" = "即将跳过%@…";
 "IntroDetected" = "检测到%@，是否跳过？";
 "IntroSkipped" = "已跳过%@";
-
 "Skip" = "跳过";
 "Unskip" = "取消跳过";
+
+"SetOffset" = "设置偏移";
+"EpisodeOffsetTitle" = "第 %@ 季的剧集偏移";
+"EpisodeOffsetDesc" = "当剧集编号不一致时需要设置偏移。\n\n例如：TMDB S02E53 → IntroDB S02E01，请输入 -52";
+"EpisodeOffsetPlaceholder" = "请输入正数或负数";
+"Save" = "保存";
 
 "OverlayLock" = "锁定播放界面";
 "OverlayLockDesc" = "在播放设置菜单中添加“锁定播放界面”按钮。";
@@ -111,6 +126,8 @@
 "ButtonSeekTimeDesc" = "启用自定义“快进\/快退”按钮跳过时间";
 "DoubleTapSeekTime" = "双击跳过时间";
 "DoubleTapSeekTimeDesc" = "启用自定义双击“快进\/快退”跳过时间";
+"ControlCenterSeekTime" = "控制中心跳过时间";
+"ControlCenterSeekTimeDesc" = "将控制中心和锁定屏幕中的“上一个\/下一个”按钮替换为自定义跳过时间";
 "Seconds" = "%ld 秒";
 
 "OtherSettings" = "其他功能";
@@ -151,8 +168,8 @@
 "BundleAndAppIdentifierDontMatch" = "Bundle ID 与 Application ID 不一致";
 "DontMatchIssuesInfo" = "这意味着文件夹选择、更换应用图标、控制中心媒体播放器以及灵动岛交互功能可能部分或完全无法使用。";
 "HowToMatchInfo" = "若要修复此问题，请轻点此项以复制 %@，然后重新签名并安装应用，并将其作为 Bundle ID 使用。";
-
 "DuplicatedAppInfo" = "由于 Bundle ID 不同，重新安装后将作为独立应用存在，不会覆盖当前应用。";
+
 "PreImportMessage" = "即将导入 Infuse Plus 偏好设置；此操作将永久覆盖您当前的偏好设置。\n\n您想继续吗？";
 "Import.Yes" = "是的，导入偏好设置";
 "PreResetMessage" = "即将把 Infuse Plus 偏好设置重置为默认值；此操作将导致您配置的所有偏好设置丢失。\n\n您想继续吗？";
